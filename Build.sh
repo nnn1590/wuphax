@@ -1,9 +1,9 @@
 #!/bin/bash -e
 
 cd vwii
-mkdir data 2
+mkdir -p data 2
 cd ../wiiu
-mkdir data 2
+mkdir -p data 2
 cd ../vwii/app_booter
 echo
 echo Building vWii App Booter
